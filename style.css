@@ -1,4 +1,4 @@
-* {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,9 +13,13 @@ body {
 }
 
 header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   background-color: #27632a;
   padding: 20px 40px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -44,6 +48,10 @@ nav ul li a:hover,
 nav ul li a.active {
   color: #f4c542;
 }
+
+section {
+     scroll-margin-top: 90px; 
+    }
 
 .hero {
   text-align: center;
